@@ -166,6 +166,7 @@ Corrections and additions welcome — open an issue or PR.
 - **Knowledge Circuits in Pretrained Transformers.** Yao, Zhang, Xi, Wang, Xu, Deng, Chen. NeurIPS 2024. [arXiv:2405.17969](https://arxiv.org/abs/2405.17969) — Maps whole circuits (not single neurons) responsible for specific factual knowledge.
 - **Function Vectors in Large Language Models.** Todd, Li, Sharma, Mueller, Wallace, Bau. 2024. [arXiv:2310.15213](https://arxiv.org/abs/2310.15213) — A single activation-space vector triggers an entire in-context task.
 - **ACE: Attribution-Controlled Knowledge Editing for Multi-hop Factual Recall.** Yang, Fan, Lai, et al. 2025. [arXiv:2510.07896](https://arxiv.org/abs/2510.07896) — Neuron-level attribution locates the implicit-subject pathway used in multi-hop reasoning chains, then edits only that pathway.
+- **ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation.** Huang, Liu, Yan, et al. NeurIPS 2025. [arXiv:2502.15543](https://arxiv.org/abs/2502.15543) — Identifies the mid-to-deep FFN layers that are disproportionately activated when a RAG model's output contradicts the retrieved context, then suppresses those FFNs to improve faithfulness to the context.
 
 ## Interpretability: Automated Circuit Discovery & Attribution
 
